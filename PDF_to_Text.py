@@ -27,7 +27,7 @@ plt.imshow(th, 'gray')
 
 plt.savefig(out+"_final.jpg", bbox_inches = 'tight', dpi = 300)
 
-outfile = out+"_final.txt"
+outfile = out+".txt"
 f = open(outfile, "a")
 
 pytesseract.pytesseract.tesseract_cmd = r"path/to/tesseract.exe"
